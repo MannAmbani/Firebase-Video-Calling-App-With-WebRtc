@@ -7,7 +7,7 @@ plugins {
 //    id("com.google.gms.google-services") version "4.4.2" apply false
 // This applies the Google Services plugin
     id("kotlin-kapt")
-    id("com.google.dagger.hilt.android") version "2.51.1" apply false
+    id("com.google.dagger.hilt.android")
     alias(libs.plugins.google.gms.google.services)
 }
 
@@ -40,6 +40,10 @@ android {
     }
     kotlinOptions {
         jvmTarget = "11"
+    }
+
+    viewBinding {
+        enable = true
     }
     
 }
