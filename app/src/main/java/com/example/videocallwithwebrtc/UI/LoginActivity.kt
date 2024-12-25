@@ -1,5 +1,6 @@
 package com.example.videocallwithwebrtc.UI
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
@@ -41,8 +42,10 @@ class LoginActivity : AppCompatActivity() {
                       Toast.makeText(this@LoginActivity, reason, Toast.LENGTH_SHORT).show()
 
                   }else{
-                      //startActivity(Intent(this@LoginActivity, MainActivity::class.java))
-                      //
+                      startActivity(Intent(this@LoginActivity, MainActivity::class.java).apply {
+                          putExtra("username",usernameEt.text.toString())
+                      })
+
                   }
 
 
