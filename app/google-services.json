@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "365875139106",
+    "firebase_url": "https://videocallwithwebrtc-default-rtdb.firebaseio.com",
+    "project_id": "videocallwithwebrtc",
+    "storage_bucket": "videocallwithwebrtc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365875139106:android:01495df91bc9a397d7f07b",
+        "android_client_info": {
+          "package_name": "com.example.videocallwithwebrtc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwAFx7GesbkYcLJRJKsoEm-V2s-0fSeIk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
